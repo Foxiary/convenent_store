@@ -1,0 +1,31 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ConvinentStore/dist/lib/fontawesomefx-controls-8.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ConvinentStore/dist/lib/javafx.media.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ConvinentStore/dist/lib/mssql-jdbc-12.6.1.jre8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ConvinentStore/dist/lib/fontawesomefx-glyphsbrowser-1.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ConvinentStore/dist/lib/fontawesomefx-emojione-2.2.7-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ConvinentStore/dist/lib/javafx.web.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ConvinentStore/dist/lib/fontawesomefx-materialicons-2.2.0-5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ConvinentStore/dist/lib/javafx.swing.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ConvinentStore/dist/lib/fontawesomefx-commons-8.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ConvinentStore/dist/lib/mssql-jdbc-12.6.1.jre11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ConvinentStore/dist/lib/javafx.controls.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ConvinentStore/dist/lib/fontawesomefx-icons525-3.0.0-4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ConvinentStore/dist/lib/javafx.fxml.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ConvinentStore/dist/lib/fontawesomefx-weathericons-2.0.10-5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ConvinentStore/dist/lib/fontawesomefx-fontawesome-4.7.0-5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ConvinentStore/dist/lib/fontawesomefx-octicons-4.3.0-5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ConvinentStore/dist/lib/javafx.base.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ConvinentStore/dist/lib/fontawesomefx-materialdesignfont-1.7.22-4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ConvinentStore/dist/lib/jfoenix-9.0.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ConvinentStore/dist/lib/controlsfx-8.40.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ConvinentStore/dist/lib/javafx.graphics.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ConvinentStore/dist/lib/jfoenix-8.0.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ConvinentStore/dist/lib/javafx-swt.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

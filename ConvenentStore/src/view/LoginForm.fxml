@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import org.controlsfx.glyphfont.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <AnchorPane fx:id="main_form" layoutX="300.0" prefHeight="400.0" prefWidth="300.0" styleClass="right-form" stylesheets="@loginform.css" AnchorPane.rightAnchor="0.0">
+               <children>
+                  <Label layoutX="110.0" layoutY="141.0" text="Welcome">
+                     <font>
+                        <Font name="Tahoma" size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="username" layoutX="57.0" layoutY="191.0" onAction="#loginAdmin" prefHeight="37.0" prefWidth="187.0" promptText="Username" styleClass="textfield" />
+                  <PasswordField fx:id="password" layoutX="57.0" layoutY="243.0" onAction="#loginAdmin" prefHeight="37.0" prefWidth="187.0" promptText="Password" styleClass="textfield" />
+                  <ImageView fitHeight="87.0" fitWidth="106.0" layoutX="107.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/shopping-bag_3415774.png" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="loginBtn" layoutX="59.0" layoutY="300.0" mnemonicParsing="false" onAction="#loginAdmin" prefHeight="37.0" prefWidth="187.0" styleClass="login-btn" stylesheets="@loginform.css" text="Login" />
+                  <ImageView fx:id="closeBtn" fitHeight="25.0" fitWidth="25.0" layoutX="260.0" layoutY="22.0" onMouseClicked="#close" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/xmark-solid.png.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="400.0" prefWidth="300.0" styleClass="left-form" stylesheets="@loginform.css" AnchorPane.rightAnchor="300.0">
+               <children>
+                  <Label layoutX="25.0" layoutY="127.0" prefHeight="147.0" prefWidth="251.0" text="Phần mềm quản lý cửa hàng tiện lợi" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Calibri" size="29.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="123.0" layoutY="365.0" text="Nhóm 9" textFill="WHITE">
+                     <font>
+                        <Font name="Tahoma" size="15.0" />
+                     </font>
+                  </Label>
+               </children></AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
